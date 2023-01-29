@@ -1,6 +1,5 @@
 import { defaultTheme, defineUserConfig } from "vuepress";
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
-import { gitPlugin } from '@vuepress/plugin-git'
 
 import { navbaren, navbarzh } from "./configs/navbar/index";
 import { sidebaren, sidebarzh } from "./configs/sidebar/index";
@@ -23,7 +22,7 @@ export default defineUserConfig({
   },
   theme: defaultTheme({
     logo: "/images/hero.png",
-    repo: "vuepress/vuepress-next",
+    repo: "saofeng-cyber/mypress",
     docsDir: "docs",
     locales: {
       "/": {
@@ -38,6 +37,8 @@ export default defineUserConfig({
         selectLanguageName: "简体中文",
         selectLanguageText: "选择语言",
         editLinkText: "在 GitHub 上编辑此页",
+        lastUpdatedText: '上次更新',
+        contributorsText: '贡献者',
         // custom containers
         tip: "提示",
         warning: "注意",
@@ -60,12 +61,6 @@ export default defineUserConfig({
       searchParameters: {
         facetFilters: ['tags:v2'],
       }
-    }),
-    gitPlugin({
-      // 配置项
-      createdTime: true,
-      updatedTime: true,
-      contributors: true
-    }),
+    })
   ],
 });
