@@ -27,8 +27,8 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 ### As Easy as 1, 2, 3
 
-<CodeGroup>
-  <CodeGroupItem title="PNPM" active>
+:::: code-group
+::: code-group-item PNPM
 
 ```bash
 # install in your project
@@ -44,9 +44,8 @@ pnpm vuepress dev
 pnpm vuepress build
 ```
 
-  </CodeGroupItem>
-
-  <CodeGroupItem title="YARN">
+:::
+::: code-group-item  YARN
 
 ```bash
 # install in your project
@@ -62,9 +61,8 @@ yarn vuepress dev
 yarn vuepress build
 ```
 
-  </CodeGroupItem>
-
-  <CodeGroupItem title="NPM">
+:::
+::: code-group-item  NPM
   
 ```bash
 # install in your project
@@ -80,5 +78,5 @@ npx vuepress dev
 npx vuepress build
 ```
 
-  </CodeGroupItem>
-</CodeGroup>
+:::
+::::

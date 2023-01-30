@@ -27,8 +27,8 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 ### 像数 1, 2, 3 一样容易
 
-<CodeGroup>
-  <CodeGroupItem title="PNPM" active>
+:::: code-group
+::: code-group-item PNPM
 
 ```bash
 # 在你的项目中安装
@@ -44,9 +44,8 @@ pnpm vuepress dev
 pnpm vuepress build
 ```
 
-  </CodeGroupItem>
-
-  <CodeGroupItem title="YARN">
+:::
+::: code-group-item YARN
 
 ```bash
 # 在你的项目中安装
@@ -62,9 +61,8 @@ yarn vuepress dev
 yarn vuepress build
 ```
 
-  </CodeGroupItem>
-
-  <CodeGroupItem title="NPM">
+:::
+::: code-group-item NPM
 
 ```bash
 # 在你的项目中安装
@@ -80,5 +78,5 @@ npx vuepress dev
 npx vuepress build
 ```
 
-  </CodeGroupItem>
-</CodeGroup>
+:::
+::::
