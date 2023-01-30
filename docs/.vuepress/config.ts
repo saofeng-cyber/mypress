@@ -6,7 +6,7 @@ import { sidebaren, sidebarzh } from "./configs/sidebar/index";
 export default defineUserConfig({
   title: "Sf Admin",
   head: [["link", { rel: "icon", href: "/images/hero.png" }]],
-  base: "/",
+  base: "/my-admin/",
   locales: {
     "/": {
       lang: "en-US",
@@ -63,4 +63,5 @@ export default defineUserConfig({
       }
     })
   ],
+  markdown:{}
 });
