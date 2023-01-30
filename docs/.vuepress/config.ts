@@ -60,6 +60,14 @@ export default defineUserConfig({
       indexName: 'sfadmin',
       searchParameters: {
         facetFilters: ['tags:v2'],
+      },
+      locales: {
+        '/': {
+          placeholder: 'Search',
+        },
+        '/zh/': {
+          placeholder: '搜索',
+        },
       }
     })
   ],
